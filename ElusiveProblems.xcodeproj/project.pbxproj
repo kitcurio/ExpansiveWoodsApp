@@ -18,9 +18,18 @@
 		648A85422B030BEC00133F38 /* Chapter2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648A85412B030BEC00133F38 /* Chapter2View.swift */; };
 		648A85442B030BF700133F38 /* Chapter3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648A85432B030BF700133F38 /* Chapter3View.swift */; };
 		648A85462B030C0400133F38 /* Chapter4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648A85452B030C0400133F38 /* Chapter4View.swift */; };
+ main
+		64FF0EED2B05CF4200FE6C74 /* Ch1Part1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FF0EEC2B05CF4200FE6C74 /* Ch1Part1.swift */; };
+		64FF0EEF2B05D28E00FE6C74 /* NavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FF0EEE2B05D28E00FE6C74 /* NavView.swift */; };
+		CC8533502B04FE090082DEC8 /* ShortPathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC85334F2B04FE090082DEC8 /* ShortPathView.swift */; };
+		CC8533522B04FF9F0082DEC8 /* LongPathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8533512B04FF9F0082DEC8 /* LongPathView.swift */; };
+		CC8533542B04FFE90082DEC8 /* SnugglyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8533532B04FFE90082DEC8 /* SnugglyView.swift */; };
+		CCA4CC192B03D5530021CDDF /* CoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA4CC182B03D5530021CDDF /* CoverView.swift */; };
+		CCBDDB812B0522B700EC6C02 /* Events&Char.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBDDB802B0522B700EC6C02 /* Events&Char.swift */; };
 		684CD29D2B054D660082C3C0 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684CD29C2B054D660082C3C0 /* Random.swift */; };
 		684CD29F2B054D8B0082C3C0 /* Magical.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684CD29E2B054D8B0082C3C0 /* Magical.swift */; };
 		684CD2A12B054D9F0082C3C0 /* Mystical.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684CD2A02B054D9F0082C3C0 /* Mystical.swift */; };
+Chapter3AppUI
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,9 +64,18 @@
 		648A85412B030BEC00133F38 /* Chapter2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter2View.swift; sourceTree = "<group>"; };
 		648A85432B030BF700133F38 /* Chapter3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter3View.swift; sourceTree = "<group>"; };
 		648A85452B030C0400133F38 /* Chapter4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter4View.swift; sourceTree = "<group>"; };
+ main
+		64FF0EEC2B05CF4200FE6C74 /* Ch1Part1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch1Part1.swift; sourceTree = "<group>"; };
+		64FF0EEE2B05D28E00FE6C74 /* NavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavView.swift; sourceTree = "<group>"; };
+		CC85334F2B04FE090082DEC8 /* ShortPathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortPathView.swift; sourceTree = "<group>"; };
+		CC8533512B04FF9F0082DEC8 /* LongPathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPathView.swift; sourceTree = "<group>"; };
+		CC8533532B04FFE90082DEC8 /* SnugglyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnugglyView.swift; sourceTree = "<group>"; };
+		CCA4CC182B03D5530021CDDF /* CoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverView.swift; sourceTree = "<group>"; };
+		CCBDDB802B0522B700EC6C02 /* Events&Char.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Events&Char.swift"; sourceTree = "<group>"; };
 		684CD29C2B054D660082C3C0 /* Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
 		684CD29E2B054D8B0082C3C0 /* Magical.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magical.swift; sourceTree = "<group>"; };
 		684CD2A02B054D9F0082C3C0 /* Mystical.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mystical.swift; sourceTree = "<group>"; };
+Chapter3AppUI
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				648514972B02852600CBAECB /* ElusiveProblemsApp.swift */,
+				CCA4CC182B03D5530021CDDF /* CoverView.swift */,
 				648514992B02852600CBAECB /* ContentView.swift */,
 				648A853B2B030ACB00133F38 /* Chapter1 */,
 				648A853E2B030B6500133F38 /* Chapter2 */,
@@ -149,6 +168,8 @@
 			isa = PBXGroup;
 			children = (
 				648A853C2B030B3A00133F38 /* Chapter1View.swift */,
+				64FF0EEE2B05D28E00FE6C74 /* NavView.swift */,
+				64FF0EEC2B05CF4200FE6C74 /* Ch1Part1.swift */,
 			);
 			path = Chapter1;
 			sourceTree = "<group>";
@@ -157,6 +178,10 @@
 			isa = PBXGroup;
 			children = (
 				648A85412B030BEC00133F38 /* Chapter2View.swift */,
+				CC8533512B04FF9F0082DEC8 /* LongPathView.swift */,
+				CC85334F2B04FE090082DEC8 /* ShortPathView.swift */,
+				CC8533532B04FFE90082DEC8 /* SnugglyView.swift */,
+				CCBDDB802B0522B700EC6C02 /* Events&Char.swift */,
 			);
 			path = Chapter2;
 			sourceTree = "<group>";
@@ -311,10 +336,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				648A85442B030BF700133F38 /* Chapter3View.swift in Sources */,
+				64FF0EED2B05CF4200FE6C74 /* Ch1Part1.swift in Sources */,
+				CCA4CC192B03D5530021CDDF /* CoverView.swift in Sources */,
+				64FF0EEF2B05D28E00FE6C74 /* NavView.swift in Sources */,
+				CC8533522B04FF9F0082DEC8 /* LongPathView.swift in Sources */,
 				648A85462B030C0400133F38 /* Chapter4View.swift in Sources */,
+				CC8533542B04FFE90082DEC8 /* SnugglyView.swift in Sources */,
 				6485149A2B02852600CBAECB /* ContentView.swift in Sources */,
 				648A85422B030BEC00133F38 /* Chapter2View.swift in Sources */,
 				648A853D2B030B3A00133F38 /* Chapter1View.swift in Sources */,
+				CCBDDB812B0522B700EC6C02 /* Events&Char.swift in Sources */,
+				CC8533502B04FE090082DEC8 /* ShortPathView.swift in Sources */,
 				648514982B02852600CBAECB /* ElusiveProblemsApp.swift in Sources */,
 				684CD29F2B054D8B0082C3C0 /* Magical.swift in Sources */,
 				684CD2A12B054D9F0082C3C0 /* Mystical.swift in Sources */,
