@@ -18,6 +18,9 @@
 		648A85422B030BEC00133F38 /* Chapter2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648A85412B030BEC00133F38 /* Chapter2View.swift */; };
 		648A85442B030BF700133F38 /* Chapter3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648A85432B030BF700133F38 /* Chapter3View.swift */; };
 		648A85462B030C0400133F38 /* Chapter4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648A85452B030C0400133F38 /* Chapter4View.swift */; };
+		684CD29D2B054D660082C3C0 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684CD29C2B054D660082C3C0 /* Random.swift */; };
+		684CD29F2B054D8B0082C3C0 /* Magical.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684CD29E2B054D8B0082C3C0 /* Magical.swift */; };
+		684CD2A12B054D9F0082C3C0 /* Mystical.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684CD2A02B054D9F0082C3C0 /* Mystical.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +55,9 @@
 		648A85412B030BEC00133F38 /* Chapter2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter2View.swift; sourceTree = "<group>"; };
 		648A85432B030BF700133F38 /* Chapter3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter3View.swift; sourceTree = "<group>"; };
 		648A85452B030C0400133F38 /* Chapter4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter4View.swift; sourceTree = "<group>"; };
+		684CD29C2B054D660082C3C0 /* Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
+		684CD29E2B054D8B0082C3C0 /* Magical.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magical.swift; sourceTree = "<group>"; };
+		684CD2A02B054D9F0082C3C0 /* Mystical.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mystical.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +165,9 @@
 			isa = PBXGroup;
 			children = (
 				648A85432B030BF700133F38 /* Chapter3View.swift */,
+				684CD29C2B054D660082C3C0 /* Random.swift */,
+				684CD29E2B054D8B0082C3C0 /* Magical.swift */,
+				684CD2A02B054D9F0082C3C0 /* Mystical.swift */,
 			);
 			path = Chapter3;
 			sourceTree = "<group>";
@@ -307,6 +316,9 @@
 				648A85422B030BEC00133F38 /* Chapter2View.swift in Sources */,
 				648A853D2B030B3A00133F38 /* Chapter1View.swift in Sources */,
 				648514982B02852600CBAECB /* ElusiveProblemsApp.swift in Sources */,
+				684CD29F2B054D8B0082C3C0 /* Magical.swift in Sources */,
+				684CD2A12B054D9F0082C3C0 /* Mystical.swift in Sources */,
+				684CD29D2B054D660082C3C0 /* Random.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
